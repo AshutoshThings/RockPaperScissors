@@ -50,14 +50,11 @@ function playRound(computer, human){
 }
 function playGame(e)
 {
-	//for(let i = 0 ; i<5; i++)
-	//{
-		let computerDes = getComputerChoice();
-		let humanDes = getHumanChoice(e);
-		console.log("computer des " + computerDes);
-		console.log("Human Des : " + humanDes);
-		playRound(computerDes, humanDes);
-	//}
+	let computerDes = getComputerChoice();
+	let humanDes = getHumanChoice(e);
+	console.log("computer des " + computerDes);
+	console.log("Human Des : " + humanDes);
+	playRound(computerDes, humanDes);
 }
 
 let input = document.querySelectorAll("span");
