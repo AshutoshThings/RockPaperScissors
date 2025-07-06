@@ -11,11 +11,9 @@ function getComputerChoice(){
 	computerChoice.textContent = `Computer has chosen : ${choices[num]}`;
 	return choices[num];
 }
-
 function getHumanChoice(e){
 	return e.srcElement.innerText;
 }
-
 function playRound(computer, human){
 	let result = document.querySelector(".result");
 	if(computer == "rock" && human =="paper")
@@ -46,7 +44,6 @@ function playRound(computer, human){
 		result.textContent = "Computer won this round!";
 		computerScoreElem.textContent = computerScore;
 	}
-	
 }
 function playGame(e)
 {
