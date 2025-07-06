@@ -1,0 +1,53 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: courier;
+}
+body{
+	background : darkgrey;
+}
+.header{
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+.container span{
+	display: flex;
+	width : 200px;
+	height: 100px;
+	border-radius: 5px;
+	border : 1px solid black;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+	font-family: courier;
+	background: mediumpurple;
+	margin:10px 40px;
+}
+.status{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.scores{
+	display: flex;
+	width: 10%;
+	justify-content: space-between;
+}
+.humanScore, .computerScore{
+	padding: 5px;
+	margin: 5px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}

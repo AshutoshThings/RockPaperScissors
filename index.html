@@ -3,18 +3,33 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<style>
-		body{
-			display: flex;
-			align-content: center;
-			justify-content: center;
-		}
-	</style>
-	<script src="./js/script.js"></script>
+	<title>RockPaperScissor</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<script src="./js/script.js" defer></script>
 </head>
 <body>
-	<H1>Rock Paper Scissors(Console only)</H1>
-	
+	<div class="header">
+		<H1>Rock Paper Scissors(Console only)</H1>
+	</div>	
+	<div class="container">
+		<span value = "rock">rock</span>
+		<span value = "paper">paper</span>
+		<span value = "scissor">scissor</span>
+	</div>
+	<div class="status">
+		<div class="computerChoice"></div>
+		<div class="scores">
+
+		<div class="humanScore">
+			<div class="tag">Human</div>
+			<div class="netHumanScore">0</div>
+		</div>
+		<div class="computerScore">
+			<div class="tag">Computer</div>
+			<div class="netComputerScore">0</div>
+		</div>
+		</div>
+		<div class="result"></div>
+	</div>
 </body>
 </html>
