@@ -8,6 +8,7 @@ body{
 	background : darkgrey;
 }
 .header{
+	margin-top: 50px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -36,4 +37,17 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
+}
+.scores{
+	display: flex;
+	width: 10%;
+	justify-content: space-between;
+}
+.humanScore, .computerScore{
+	padding: 5px;
+	margin: 5px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
 }
